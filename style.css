@@ -1,0 +1,33 @@
+body {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+#header-div {
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 36px;
+}
+
+
+#images-div {
+  display: flex;
+}
+
+#images-div * {
+  margin: 1px;
+}
+
+#rss-img {
+  margin-left: 10px;
+}
