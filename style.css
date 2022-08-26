@@ -1,17 +1,33 @@
 body {
+  margin-bottom: 80px;
   padding-left: 10vw;
   padding-right: 10vw;
+  font-size: 24px;
+  color: grey;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 #header-div {
   display: inline-block;
+  font-family: 'Arial Narrow';
+  font-weight: 100;
+  font-size: 14px;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  color: black;
+}
+
+#header-div p {
+  text-indent: 4px;
 }
 
 header {
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 header h2 {
@@ -28,6 +44,167 @@ header h2 {
   margin: 1px;
 }
 
+#images-div *:hover {
+  cursor: pointer;
+}
+
 #rss-img {
   margin-left: 10px;
+}
+
+hr {
+  width: 100%;
+}
+
+.fat-hr {
+  height: 12px;
+  margin-top: 20px;
+  border: 0;
+  background-image: url(./assets/hr-img.png);
+  background-repeat: repeat;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 48px;
+  font-family: 'Oswald', sans-serif;;
+  font-weight: 600;
+  font-stretch: ultra-condensed;
+  color: black;
+}
+
+
+#sub-header {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Arial Narrow';
+  font-weight: 100;
+  font-size: 22px;
+  color: grey;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+
+}
+
+.print-button {
+  border: 0;
+  background: 0;
+  color: grey;
+}
+
+.print-button img {
+  height: 14px;
+}
+
+button p {
+  display: inline;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size: 22px;
+}
+
+#hero-image {
+  width: 100%;
+  margin-top: 30px;
+}
+
+main > p {
+  margin-top: 30px;
+  text-indent: 30px;
+}
+
+form {
+  background-image: url(./assets/list-bg.png);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  columns: 50%;
+  column-count: 2;
+}
+
+fieldset > * {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+input {
+  margin-top: 6px;
+  margin-right: 8px;
+  background: none;
+  mix-blend-mode: multiply;
+}
+
+label {
+  font-family: 'Comic Sans MS';
+}
+
+input:checked + label {
+  text-decoration: line-through;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+footer > div {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#author {
+  display: inline-block;
+  font-size: 20;
+}
+
+h4 {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+#footer-hr {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  border-color: lightgrey;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#van-pic {
+  height: 80px;
+  width: 80px;
+  margin-right: 24px;
+}
+
+#share {
+  width: 240px;
+  min-width: 240px;
+  max-width: 240px;
+  margin-left: 24px;
+  align-self: center;
+  background-color: rgb(188, 112, 88);
+  color: white;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size: 30px;
+  padding: 16px 32px;
+  border: none;
+}
+
+#small-logo {
+  align-self: center;
+  position: relative;
+  top: -58px;
+  box-shadow: 0 0 30px 40px #ffffff
+}
+
+footer > p {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: grey;
 }
